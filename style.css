@@ -1,117 +1,88 @@
-
 body {
-  font-family: 'Special Elite', cursive;
+  font-family: "Special Elite", cursive;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; */
 }
 
-/* .cv-container {
-  text-align: center;
-  padding: 20px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-} */
-
 .navbar {
-    padding: 1rem 0; 
-  }
+  padding: 1rem 0;
+}
 
-  .navbar-brand {
-    font-size: 1.5rem;
-    margin-left: 30px;
-  }
-  button.navbar-toggler{
-    margin-right: 30px;
-  }
-/* 
-  
-   */
-  
-  /* .navbar-nav {
-    align-items: center; 
-    margin-left: auto; 
-  } */
-  
-  .navbar-nav .nav-item {
-    margin: 0 0.5rem; 
-  }
-  
-  .navbar-nav .nav-link {
-    font-size: 1rem; 
-    color: #333; 
-    transition: color 0.3s; 
-    
-  }
-  
-  .navbar-nav .nav-link:hover {
-    color: #17a2b8; 
-  }
+.navbar-brand {
+  font-size: 1.5rem;
+  margin-left: 30px;
+}
+button.navbar-toggler {
+  margin-right: 30px;
+}
 
-  
+.navbar-nav .nav-item {
+  margin: 0 0.5rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #17a2b8;
+}
+
 .nombre {
   margin-bottom: 10px;
 }
 
 h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 h2.titulo {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    background-color: #f0f0f0 !important;
-    color: black !important;
-    border: 2px solid #f0f0f0 !important;
-
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  background-color: #f0f0f0 !important;
+  color: black !important;
+  border: 2px solid #f0f0f0 !important;
 }
 
 h2.text-center {
-    margin-top: 50px;
-    /* background-color: #17a2b8; */
-    /* color: #f0f0f0; */
-    padding-top: 5px;
-    border: 2px solid #17a2b8;
-    border-radius: 5px;
+  margin-top: 50px;
+  padding-top: 5px;
+  border: 2px solid #17a2b8;
+  border-radius: 5px;
 }
 
 hr {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
- 
-p a { 
-    color: #17a2b8;
+p a {
+  color: #17a2b8;
 }
 
-  .fa-linkedin,
-  .fa-behance, 
-  .fa-envelope, 
-  .fa-phone {
-    color: #17a2b8;
-  }
+.fa-linkedin,
+.fa-behance,
+.fa-envelope,
+.fa-phone {
+  color: #17a2b8;
+}
 
 section {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .quien-soy {
-margin-top: 30px;
-font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .experiencia-laboral {
-    margin-top: 50px;
-    border: 2px solid #17a2b8;
-    border-radius: 5px;
-    
+  margin-top: 50px;
+  border: 2px solid #17a2b8;
+  border-radius: 5px;
 }
-
 
 .empresa {
   font-weight: bold;
@@ -120,10 +91,10 @@ font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 .cargo-fechas {
-font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: #666;
   margin-bottom: 10px;
@@ -135,10 +106,9 @@ font-family: 'Montserrat', sans-serif;
   margin-left: 20px;
 }
 
-
 li span {
-    font-family: 'Montserrat', sans-serif; 
-    font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
 }
 .educacion,
 .certificaciones,
@@ -150,8 +120,8 @@ li span {
 }
 
 ul {
-margin-top: 30px;
-margin-left: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 .educacion li,
 .certificaciones li,
@@ -160,16 +130,14 @@ margin-left: 20px;
 }
 
 .habilidades li i {
-    color: #17a2b8;
+  color: #17a2b8;
 }
 .idioma {
-    margin-top: 50px;
-    margin-left: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .idioma span {
-    font-family: 'Montserrat', sans-serif; 
-    font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
 }
-
-
