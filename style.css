@@ -9,9 +9,11 @@ body {
   padding: 1rem 0;
 }
 
+
 .navbar-brand {
   font-size: 1.5rem;
   margin-left: 30px;
+  margin-top: 30px;
 }
 button.navbar-toggler {
   margin-right: 30px;
@@ -29,6 +31,24 @@ button.navbar-toggler {
 
 .navbar-nav .nav-link:hover {
   color: #17a2b8;
+}
+button.btn.btn-custom {
+  margin-left: 30px;
+  border: 2px solid #17a2b8;
+  border-radius: 5px;
+  color: #17a2b8;
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+button.btn.btn-custom a {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+button.btn.btn-custom a:hover {
+  color: #333;
+  
 }
 
 .nombre {
