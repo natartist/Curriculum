@@ -42,12 +42,16 @@ button.btn.btn-custom {
 }
 
 button.btn.btn-custom a {
+  display: inline-block;
   text-decoration: none;
   color: #17a2b8;
+  cursor: pointer;
+    transition: transform 0.3s
 }
 
 button.btn.btn-custom a:hover {
   color: #333;
+  transform: rotate(10deg);
 }
 
 .nombre {
@@ -57,6 +61,9 @@ button.btn.btn-custom a:hover {
 h1 {
   font-size: 50px;
   font-family: "Raleway", sans-serif;
+  opacity: 0;
+    transform: translateY(-20px);
+    animation: titleFadeIn 1s forwards;
 }
 
 h2.titulo {
@@ -65,7 +72,24 @@ h2.titulo {
   background-color: #f0f0f0 !important;
   color: black !important;
   border: 2px solid #f0f0f0 !important;
+  opacity: 0;
+    transform: translateY(20px);
+    animation: descriptionFadeIn 1s forwards 0.5s;
 }
+@keyframes titleFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes descriptionFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 h2.text-center {
   /* margin-top: 10px; */
@@ -74,8 +98,12 @@ h2.text-center {
   border-radius: 5px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
+  transition: transform 0.3s;
 }
 
+h2.text-center:hover {
+  transform: translateY(-10px);
+}
 hr {
   margin-bottom: 40px;
 }
@@ -89,7 +117,9 @@ p a {
 .fa-envelope,
 .fa-phone {
   color: #17a2b8;
+
 }
+
 
 section {
   margin-top: 20px;
