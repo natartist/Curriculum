@@ -1,5 +1,6 @@
 body {
-  font-family: "Special Elite", cursive;
+  /* font-family: "Special Elite", cursive; */
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
@@ -8,7 +9,6 @@ body {
 .navbar {
   padding: 1rem 0;
 }
-
 
 .navbar-brand {
   font-size: 1.5rem;
@@ -48,7 +48,6 @@ button.btn.btn-custom a {
 
 button.btn.btn-custom a:hover {
   color: #333;
-  
 }
 
 .nombre {
@@ -57,6 +56,7 @@ button.btn.btn-custom a:hover {
 
 h1 {
   font-size: 50px;
+  font-family: "Raleway", sans-serif;
 }
 
 h2.titulo {
@@ -68,10 +68,12 @@ h2.titulo {
 }
 
 h2.text-center {
-  margin-top: 50px;
+  /* margin-top: 10px; */
   padding-top: 5px;
   border: 2px solid #17a2b8;
   border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
 
 hr {
@@ -94,19 +96,21 @@ section {
 }
 
 .quien-soy {
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px !important;
   font-family: "Montserrat", sans-serif;
 }
 
 .experiencia-laboral {
-  margin-top: 50px;
+  margin-top: 20px;
   border: 2px solid #17a2b8;
   border-radius: 5px;
+  font-family: "Raleway", sans-serif;
 }
 
 .empresa {
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: 20px;
 }
 
@@ -114,50 +118,56 @@ h3 {
   font-size: 20px;
 }
 .cargo-fechas {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
   color: #666;
+  font-weight: bold;
   margin-bottom: 10px;
   margin-left: 20px;
 }
 
 .experiencia ul {
   list-style: circle;
+  text-align: left;
   margin-left: 20px;
 }
 
 li span {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
+  color: #666;
 }
 .educacion,
 .certificaciones,
 .habilidades {
   list-style: circle;
   text-align: left;
-  margin-bottom: 20px;
-  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
+.educacion,
+.certificaciones,
+.habilidades ul {
+  margin-top: 30px;
+}
 ul {
   margin-top: 30px;
   margin-left: 20px;
 }
-.educacion li,
-.certificaciones li,
-.habilidades li {
-  margin: 5px 0;
-}
+
 
 .habilidades li i {
   color: #17a2b8;
 }
 .idioma {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 50px;
 }
 
 .idioma span {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
+  color: #666;
 }
+
