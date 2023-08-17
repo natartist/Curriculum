@@ -98,12 +98,8 @@ h2.text-center {
   border-radius: 5px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  transition: transform 0.3s;
 }
 
-h2.text-center:hover {
-  transform: translateY(-10px);
-}
 hr {
   margin-bottom: 40px;
 }
